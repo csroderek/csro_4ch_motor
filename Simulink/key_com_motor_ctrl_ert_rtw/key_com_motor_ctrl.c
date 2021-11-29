@@ -113,11 +113,6 @@ void key_com_motor_ctrl_initialize(void)
     motor_ctrl_Init(&(key_com_motor_ctrl_DW.channel2_InstanceData.rtdw));
     motor_ctrl_Init(&(key_com_motor_ctrl_DW.channel3_InstanceData.rtdw));
     motor_ctrl_Init(&(key_com_motor_ctrl_DW.channel4_InstanceData.rtdw));
-    sys_regs.holdings[100] = 2;
-    sys_regs.holdings[101] = 100;
-    sys_regs.holdings[102] = 3000;
-    sys_regs.holdings[103] = 20;
-    sys_regs.holdings[104] = 50;
 }
 
 void key_com_motor_ctrl_terminate(void)

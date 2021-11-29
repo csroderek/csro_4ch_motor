@@ -4,6 +4,11 @@
 #include <stdbool.h>
 #include "main.h"
 
+#define _EE_USE_FLASH_PAGE_OR_SECTOR (60)
+#define _EE_USE_RAM_BYTE (128)
+
+extern uint8_t ee_ram[_EE_USE_RAM_BYTE];
+
 bool ee_init(void);
 bool ee_format(bool keepRamData);
 bool ee_read(uint32_t startVirtualAddress, uint32_t len, uint8_t *data);

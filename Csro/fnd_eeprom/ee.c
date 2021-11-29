@@ -1,5 +1,4 @@
 #include "ee.h"
-#include "eeConfig.h"
 #include <string.h>
 
 #define PAGE 0
