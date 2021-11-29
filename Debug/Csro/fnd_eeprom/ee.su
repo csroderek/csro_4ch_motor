@@ -1,0 +1,6 @@
+ee.c:16:6:ee_init	8	static
+ee.c:21:6:ee_format	40	static
+ee.c:49:6:ee_read	32	static
+ee.c:68:6:ee_write	32	static
+ee.c:91:6:ee_writeToRam	24	static
+ee.c:105:6:ee_commit	8	static

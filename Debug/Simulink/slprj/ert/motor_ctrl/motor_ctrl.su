@@ -1,0 +1,3 @@
+motor_ctrl.c:38:13:motor_ctrl_MOTOR	24	static
+motor_ctrl.c:136:6:motor_ctrl_Init	16	static
+motor_ctrl.c:141:6:motor_ctrl	64	static
