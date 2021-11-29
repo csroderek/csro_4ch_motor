@@ -2,12 +2,14 @@
 #include "usart.h"
 #include "gpio.h"
 
-modbus_port port[4] = {{&huart1,
-                        RS485_EN1_GPIO_Port,
-                        RS485_EN1_Pin},
-                       {&huart2,
-                        RS485_EN2_GPIO_Port,
-                        RS485_EN2_Pin},};
+modbus_port port[2] = {
+    {&huart1,
+     RS485_EN1_GPIO_Port,
+     RS485_EN1_Pin},
+    {&huart2,
+     RS485_EN2_GPIO_Port,
+     RS485_EN2_Pin},
+};
 modbus_regs sys_regs;
 modbus_slave slaves[2];
 
@@ -48,4 +50,3 @@ void fnd_com_modbus_rtu_slave2_wait(void)
 {
     slave_wait_request(&slaves[1]);
 }
-

@@ -1,7 +1,7 @@
 #ifndef __MB_SLAVE_H
 #define __MB_SLAVE_H
 
-#define MB_SLAVE_BUFFER_LENGTH 512
+#define MB_SLAVE_BUFFER_LENGTH 256
 
 #include "mb_config.h"
 

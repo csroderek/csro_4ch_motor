@@ -35,19 +35,19 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h \
  ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_com/fnd_com.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_slave.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_config.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_master.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_input/fnd_input.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_output/fnd_output.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_eeprom/ee.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/key_com_motor_ctrl_ert_rtw/key_com_motor_ctrl.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_config.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/_sharedutils/rtwtypes.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/key_process/key_process.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/com_process/com_process.h \
- C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/motor_ctrl/motor_ctrl.h
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_com/fnd_com.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_slave.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_config.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_master.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_input/fnd_input.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_output/fnd_output.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_eeprom/ee.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/key_com_motor_ctrl_ert_rtw/key_com_motor_ctrl.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_config.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/_sharedutils/rtwtypes.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/key_process/key_process.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/com_process/com_process.h \
+ C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/motor_ctrl/motor_ctrl.h
 
 ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h:
 
@@ -123,28 +123,28 @@ Core/Src/freertos.o: ../Core/Src/freertos.c \
 
 ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_com/fnd_com.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_com/fnd_com.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_slave.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_slave.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_config.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_config.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_master.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_master.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_input/fnd_input.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_input/fnd_input.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_output/fnd_output.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_output/fnd_output.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_eeprom/ee.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Csro/fnd_eeprom/ee.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/key_com_motor_ctrl_ert_rtw/key_com_motor_ctrl.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/key_com_motor_ctrl_ert_rtw/key_com_motor_ctrl.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_config.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Modbus_RTU/mb_config.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/_sharedutils/rtwtypes.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/_sharedutils/rtwtypes.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/key_process/key_process.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/key_process/key_process.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/com_process/com_process.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/com_process/com_process.h:
 
-C:/Users/Litao/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/motor_ctrl/motor_ctrl.h:
+C:/Users/Derek/STM32CubeIDE/workspace_1.7.0/csro_4ch_motor/Simulink/slprj/ert/motor_ctrl/motor_ctrl.h:

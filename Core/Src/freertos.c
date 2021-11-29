@@ -1,21 +1,21 @@
 /* USER CODE BEGIN Header */
 /**
-  ******************************************************************************
-  * File Name          : freertos.c
-  * Description        : Code for freertos applications
-  ******************************************************************************
-  * @attention
-  *
-  * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
-  * All rights reserved.</center></h2>
-  *
-  * This software component is licensed by ST under Ultimate Liberty license
-  * SLA0044, the "License"; You may not use this file except in compliance with
-  * the License. You may obtain a copy of the License at:
-  *                             www.st.com/SLA0044
-  *
-  ******************************************************************************
-  */
+ ******************************************************************************
+ * File Name          : freertos.c
+ * Description        : Code for freertos applications
+ ******************************************************************************
+ * @attention
+ *
+ * <h2><center>&copy; Copyright (c) 2021 STMicroelectronics.
+ * All rights reserved.</center></h2>
+ *
+ * This software component is licensed by ST under Ultimate Liberty license
+ * SLA0044, the "License"; You may not use this file except in compliance with
+ * the License. You may obtain a copy of the License at:
+ *                             www.st.com/SLA0044
+ *
+ ******************************************************************************
+ */
 /* USER CODE END Header */
 
 /* Includes ------------------------------------------------------------------*/
@@ -56,30 +56,30 @@
 /* Definitions for Task01 */
 osThreadId_t Task01Handle;
 const osThreadAttr_t Task01_attributes = {
-    .name = "Task01",
-    .stack_size = 128 * 4,
-    .priority = (osPriority_t)osPriorityHigh7,
+  .name = "Task01",
+  .stack_size = 256 * 4,
+  .priority = (osPriority_t) osPriorityHigh7,
 };
 /* Definitions for Task02 */
 osThreadId_t Task02Handle;
 const osThreadAttr_t Task02_attributes = {
-    .name = "Task02",
-    .stack_size = 128 * 4,
-    .priority = (osPriority_t)osPriorityHigh5,
+  .name = "Task02",
+  .stack_size = 256 * 4,
+  .priority = (osPriority_t) osPriorityHigh5,
 };
 /* Definitions for Task03 */
 osThreadId_t Task03Handle;
 const osThreadAttr_t Task03_attributes = {
-    .name = "Task03",
-    .stack_size = 128 * 4,
-    .priority = (osPriority_t)osPriorityHigh3,
+  .name = "Task03",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityHigh3,
 };
 /* Definitions for Task04 */
 osThreadId_t Task04Handle;
 const osThreadAttr_t Task04_attributes = {
-    .name = "Task04",
-    .stack_size = 128 * 4,
-    .priority = (osPriority_t)osPriorityHigh1,
+  .name = "Task04",
+  .stack_size = 128 * 4,
+  .priority = (osPriority_t) osPriorityHigh1,
 };
 
 /* Private function prototypes -----------------------------------------------*/
@@ -99,11 +99,10 @@ void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
   * @param  None
   * @retval None
   */
-void MX_FREERTOS_Init(void)
-{
+void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN Init */
-  ee_init();
   fnd_com_modbus_rtu_init();
+  ee_init();
   /* USER CODE END Init */
 
   /* USER CODE BEGIN RTOS_MUTEX */
@@ -142,14 +141,15 @@ void MX_FREERTOS_Init(void)
   /* USER CODE BEGIN RTOS_EVENTS */
   /* add events, ... */
   /* USER CODE END RTOS_EVENTS */
+
 }
 
 /* USER CODE BEGIN Header_StartTask01 */
 /**
-  * @brief  Function implementing the Task01 thread.
-  * @param  argument: Not used
-  * @retval None
-  */
+ * @brief  Function implementing the Task01 thread.
+ * @param  argument: Not used
+ * @retval None
+ */
 /* USER CODE END Header_StartTask01 */
 void StartTask01(void *argument)
 {
@@ -164,10 +164,10 @@ void StartTask01(void *argument)
 
 /* USER CODE BEGIN Header_StartTask02 */
 /**
-* @brief Function implementing the Task02 thread.
-* @param argument: Not used
-* @retval None
-*/
+ * @brief Function implementing the Task02 thread.
+ * @param argument: Not used
+ * @retval None
+ */
 /* USER CODE END Header_StartTask02 */
 void StartTask02(void *argument)
 {
@@ -182,10 +182,10 @@ void StartTask02(void *argument)
 
 /* USER CODE BEGIN Header_StartTask03 */
 /**
-* @brief Function implementing the Task03 thread.
-* @param argument: Not used
-* @retval None
-*/
+ * @brief Function implementing the Task03 thread.
+ * @param argument: Not used
+ * @retval None
+ */
 /* USER CODE END Header_StartTask03 */
 void StartTask03(void *argument)
 {
@@ -204,10 +204,10 @@ void StartTask03(void *argument)
 
 /* USER CODE BEGIN Header_StartTask04 */
 /**
-* @brief Function implementing the Task04 thread.
-* @param argument: Not used
-* @retval None
-*/
+ * @brief Function implementing the Task04 thread.
+ * @param argument: Not used
+ * @retval None
+ */
 /* USER CODE END Header_StartTask04 */
 void StartTask04(void *argument)
 {
